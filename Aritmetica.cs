@@ -1,3 +1,5 @@
+namespace Calculos
+{
 /// <summary>
    /// Implementa operações aritméticas.
    /// </summary>
@@ -7,4 +9,9 @@
        {
            return x + y;
        }
+       public int Subtrair(int x, int y)
+       {
+        return x - y;
+       }
    }
+ }
